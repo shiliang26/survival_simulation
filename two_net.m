@@ -34,5 +34,6 @@ while(counter~=nop)
     end
     step=step+1;
 end
+
 pick(pick>nop)=pick(pick>nop)-nop;
 pick(pick<=0)=pick(pick<=0)+nop;
